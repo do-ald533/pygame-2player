@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pygame-2player"
+version = "0.1.0"
+description = ""
+authors = ["do-ald533 <douglas.aldred533@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pygame_2player"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
